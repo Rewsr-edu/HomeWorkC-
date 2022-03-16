@@ -17,7 +17,7 @@ if (a == b)
 {
     Console.WriteLine ("Числа равны");
 }
-*/
+
 
 // Задача 2
 
@@ -72,3 +72,18 @@ if (b == c)
        Console.WriteLine ("Второе и третье числа больше");
     }
 }    
+*/
+
+// Задача 3
+
+Console.WriteLine("Введите целое число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+if (a%2 == 0)
+{
+    Console.WriteLine ("Да, четное ");
+}
+else
+{
+    Console.WriteLine ("Нет, нечетное ");
+}
