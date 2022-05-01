@@ -1,6 +1,5 @@
 ﻿/*
 // Задача 1
-
 Console.WriteLine("Введите первое целое число:");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе целое число: ");
@@ -17,17 +16,13 @@ if (a == b)
 {
     Console.WriteLine ("Числа равны");
 }
-
-
 // Задача 2
-
 Console.WriteLine("Введите первое целое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе целое число: ");
 int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите третье целое число: ");
 int c = Convert.ToInt32(Console.ReadLine());
-
 if (a > b)
 {
     if (a > c)
@@ -72,7 +67,7 @@ if (b == c)
        Console.WriteLine ("Второе и третье числа больше");
     }
 }    
-*/
+
 
 // Задача 3
 
@@ -87,3 +82,36 @@ else
 {
     Console.WriteLine ("Нет, нечетное ");
 }
+
+// Задача 4 
+Console.WriteLine("Введите целое число:");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = 2;
+while(b <= a)
+{
+       Console.Write(b);
+       b = b + 2;
+              if(b <= a)
+       {
+           Console.Write(" , ");
+       }
+}
+
+// Задача 5
+Console.WriteLine("Введите трехзначное число:");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = a;
+if (a > 999)
+{
+    Console.WriteLine("Некорретное число");
+}
+if (a < 100 )
+{
+    Console.WriteLine("Некорретное число");
+
+}
+else
+{ a = a%10;
+Console.WriteLine(a);
+}
+*/
